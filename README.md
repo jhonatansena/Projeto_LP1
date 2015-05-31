@@ -1,1 +1,2 @@
-#Projeto_LP1
+#Projeto Final da Disciplina LP1/EDB1
+
