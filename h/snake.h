@@ -5,10 +5,12 @@
 
 //Classe que representa a cobra (lista encadeada)
 class Snake {
-	private:
+	public:
 		Node *head, *tail;
 		int size;
-	public:
+
+
+    public:
 		Snake(); //Construtor padrão (inicia a cobra com 3 blocos)
 		Node* GetHead();
 		void comer(); //Come um novo bloco
@@ -17,7 +19,8 @@ class Snake {
 		void moverDown(); //Move a cobra para baixo
 		void moverLeft(); //Move a cobra para a esquerda
 		void avancar(); //Anda na direção atual (avança um passo)
-		void imprime(); //Imprime o corpo da cobra (para testes)	
+		void imprime(); //Imprime o corpo da cobra i(para testes)
+
 };
 
 #endif

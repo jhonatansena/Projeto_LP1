@@ -4,4 +4,5 @@
 //Orientação/direção de cada bloco do corpo da cobra
 enum Orientation { Up, Right, Down, Left }; //Sentido horário
 
+
 #endif

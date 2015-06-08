@@ -6,13 +6,13 @@
 
 //Classe que encapsula os elementos do jogo
 class Game{
-	private:
+	public:
 		int **matrix;
 		Map *map;
-		Snake *snake;		
-	public:
+		Snake *snake;
+
 		Game();
-		void atualiza(); 
+		void atualiza();
 		void draw();
 		void executar(int acao);
 };

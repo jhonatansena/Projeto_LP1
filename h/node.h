@@ -5,6 +5,7 @@
 
 //Cada bloco do corpo da cobra (nomeado como Node para facilitar a referência ao que foi dado em aula)
 class Node {
+    public:
 	int x, y;
 	Orientation direction;
 	Node *next;
